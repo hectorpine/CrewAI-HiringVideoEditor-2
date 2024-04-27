@@ -7,8 +7,8 @@ from agents import VideoEditingAgents
 from tasks import VideoEditingTasks
 
 # Set up environment variables
-os.environ["OPENAI_API_KEY"] = config('OPENAI_API_KEY')
-os.environ["SERPER_API_KEY"] = config('SERPER_API_KEY')
+os.environ["OPENAI_API_KEY"] = "ENTER YOUR OPEN AI API KEY HERE BETWEEN THESE QUOTATIONS"
+os.environ["SERPER_API_KEY"] = "SERPER API KEY"
 
 class VideoEditingCrew:
     def __init__(self, inputs):
